@@ -1,13 +1,15 @@
 \documentclass[11pt, a4paper]{article}
 
 \usepackage[margin=20mm]{geometry}
-\usepackage{fontspec}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
-\babelfont{rm}{DejaVu Sans}
-\babelfont{sf}{DejaVu Sans}
-\babelfont{tt}{DejaVu Sans Mono}
+\usepackage{DejaVuSans}
+\usepackage{DejaVuSansMono}
+\renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{amsmath, amssymb}
+\usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{xcolor}
 \usepackage{tikz}
@@ -115,7 +117,7 @@
         \textbf{№} & \textbf{Наименование компонента} & \textbf{Количество} \\
         \midrule
         1 & Микроконтроллер Arduino Uno & 1 шт. \\
-        2 & Одноплатный компьютер Raspberry Pi Zero 2 W & 1 шт. \\
+        2 & Одноплатный компьютер Raspberry Pi 3 Model B+ & 1 шт. \\
         3 & Сервопривод JX PDI-2010MG (высокий крутящий момент) & 4 шт. \\
         4 & Сервопривод Feetech FS90 & 8 шт. \\
         5 & Датчик расстояния ИК (5–50 мм) & 4 шт. \\
