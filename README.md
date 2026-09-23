@@ -25,7 +25,7 @@
 
 ## Архитектура проекта
 
-<img src="/media/2.webp" width=125 align="left" style="float: left; margin-right: 8px;" alt="sticker">
+<img src="/media/2.webp" width=105 align="left" style="float: left; margin-right: 8px;" alt="sticker">
 
 Инновационность системы заключается в разделении вычислительных нагрузок.
 
