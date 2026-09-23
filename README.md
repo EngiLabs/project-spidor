@@ -13,7 +13,7 @@
 
 ###### Futuristisches Konzeptblatt eines Roboter-Vierbeiners.
 
-<img src="/media/1.webp" width=100 align="left" style="float: left; margin-right: 8px;" alt="sticker">
+<img src="/media/1.webp" width=125 align="left" style="float: left; margin-right: 8px;" alt="sticker">
 
 Четвероногий шагающий робот (квадропод) с интегрированным грузовым отсеком и возможностью автономного выполнения
 навигационных задач внутри помещений. 
@@ -25,7 +25,7 @@
 
 ## Архитектура проекта
 
-<img src="/media/2.webp" width=100 align="left" style="float: left; margin-right: 8px;" alt="sticker">
+<img src="/media/2.webp" width=125 align="left" style="float: left; margin-right: 8px;" alt="sticker">
 
 Инновационность системы заключается в разделении вычислительных нагрузок.
 
@@ -57,7 +57,7 @@
 
 ## Сервисы
 
-<img src="/media/3.webp" width=100 align="left" style="float: left; margin-right: 8px;" alt="sticker">
+<img src="/media/3.webp" width=125 align="left" style="float: left; margin-right: 8px;" alt="sticker">
 
 Исходный код разделен на три соответствующих репозитория:
 *   [??? / ???](https://github.com)
