@@ -8,6 +8,7 @@
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python3">
 <img src="https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white" alt="FastAPI">
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
+<img src="https://img.shields.io/badge/Needle_3-10B981?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMS4yIDIuOGEyLjggMi44IDAgMCAwLTQgMEwzLjUgMTguNmwtLjggMy4xYS41LjUgMCAwIDAgLjYuNmwzLjEtLjhMMjEuMiA2LjhhMi44IDIuOCAwIDAgMCAwLTR6bS0yLjMgMS40YTEgMSAwIDAgMSAxLjQgMS40bC0yLjEgMi4xLTEuNC0xLjQgMi4xLTIuMXoiLz48L3N2Zz4%3D" alt="Needle 3">
 <img src="https://img.shields.io/badge/Aiogram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Aiogram">
 <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino">
 <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi">
@@ -51,9 +52,11 @@
 
 * **"Para-RAID" (Канал связи с удалённым сервером-ядром)**
 
-    Представляет собой direct RTC-канал связи с вычислительный узел для ресурсоемких задач. Сервер принимает телеметрию
-и видеопоток с оптической камеры дроида. Сервер использует модели компьютерного зрения для распознавания окружения,
-прокладывания глобального маршрута и отправки сигналов управления обратно на Raspberry Pi.
+    Представляет собой direct RTC-канал связи с вычислительным узлом для ресурсоемких задач. Сервер принимает телеметрию
+и видеопоток с оптической камеры дроида, использует модели компьютерного зрения для распознавания окружения и
+прокладывания глобального маршрута, а также применяет компактную модель Needle 3.0 (с русскоязычным LoRA-дообучением
+под команды проекта) для преобразования текстовых обращений пользователя в структурированные вызовы `RaidAPI` и отправки
+команд управления на Raspberry Pi.
 
 
 
@@ -61,10 +64,11 @@
 
 <img src="/media/3.webp" width=125 align="left" style="float: left; margin-right: 8px;" alt="sticker">
 
-Исходный код разделен на три соответствующих репозитория:
+Исходный код разделен на три основных сервиса и отдельный репозиторий дообучения модели:
 *   [SPInal cDOR](https://github.com/EngiLabs/SPInal-cDOR)
 *   [SPIDOR Neocortex](https://github.com/EngiLabs/SPIDOR-neocortex)
 *   [Para-RAID Neural Link](https://github.com/EngiLabs/Para-RAID)
+*   [Para-RAID Needle LoRA](https://github.com/EngiLabs/Para-RAID-needle-LoRA) — пайплайн русскоязычного LoRA-дообучения Needle 3 под команды SPIDOR
 
 ---
 
